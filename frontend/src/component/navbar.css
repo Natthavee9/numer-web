@@ -1,0 +1,62 @@
+
+.navbar {
+    background: linear-gradient(90deg, #000000, #A4F600);
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: inherit;
+}
+
+
+
+
+.navbar-brand {
+    color: #A4F600 !important;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    color: rgba(255,255,255,0.9) !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    transform: translateY(-2px);
+}
+
+.navbar-toggler {
+    border-color: rgba(255,255,255,0.5);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.dropdown-menu {
+    background-color: #000000;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    
+    
+}
+
+.dropdown-item {
+    color: rgba(255,255,255,0.9) !important;
+}
+
+.dropdown-item:hover {
+    background-color: #a4f600f3;
+    color: white !important;
+}
+
+.basic-nav-dropdown{
+    padding: 5rem;
+
+}
+
+.navbar .nav-link.dropdown-toggle {
+    margin-right: 1rem; /* เพิ่มระยะห่างด้านขวา */
+    margin-left: 1rem;  /* เพิ่มระยะห่างด้านซ้าย */
+    font-size: 1.2rem;  /* เพิ่มขนาดตัวอักษร (ถ้าต้องการ) */
+}
